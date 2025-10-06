@@ -5,7 +5,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        // Create a list of shapes (polymorphism allows different shape types)
+        // Create a list of shapes (polymorphism allows different shape types) 
         List<Shape> shapes = new List<Shape>();
 
         // Create and add shapes to the list
@@ -18,5 +18,6 @@ class Program
         {
             Console.WriteLine($"The {shape.GetColor()} shape has an area of {shape.GetArea()}.");
         }
+        // End of Shapes program
     }
 }
